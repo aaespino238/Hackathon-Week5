@@ -1,4 +1,4 @@
-"use client";  // Marks this component as a Client Component
+"use client";
 
 import { useState, useEffect } from "react";
 import Card from '@mui/material/Card';
@@ -17,6 +17,8 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Link from '@mui/material/Link';
 import * as THREE from 'three';
 import chroma from 'chroma-js';
 
@@ -242,14 +244,16 @@ export default function Home() {
     }
   };
 
-  // Placeholder function to simulate fetching transcript from the backend
   const fetchTranscript = async (file) => {
     // Simulate an API call delay
     setTimeout(() => {
       setTranscript([
         { time: "00:00", text: "Intro" },
         { time: "00:10", text: "Jellyfish swimming" },
-        { time: "00:30", text: "End" },
+        { time: "00:30", text: "jellyfish dance" },
+        { time: "00:35", text: "jellyfish dance more" },
+        { time: "00:40", text: "Jellyfish swimming again" },
+        { time: "00:45", text: "End" }
       ]);
     }, 2000); // Simulated delay for API response
   };
@@ -318,7 +322,7 @@ export default function Home() {
               justifyContent: 'center',
               alignItems: 'center',
               borderRadius: '16px', 
-              background: 'rgba(255, 255, 255, 0.5)',  // Slightly more opaque
+              background: 'rgba(255, 255, 255, 0.7)',  // Less opaque
               backdropFilter: 'blur(10px)',
               boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
               border: '1px solid rgba(255, 255, 255, 0.3)',
@@ -454,6 +458,30 @@ export default function Home() {
           </Typography>
         )}
       </Box>
+
+      {/* Footer */}
+      {!videoFile && (
+        <Box 
+          component="footer" 
+          sx={{ 
+            textAlign: 'center', 
+            padding: '15px',  // Increased padding for more height
+            backgroundColor: 'rgba(255, 255, 255, -0.2)',  // Less opaque
+            backdropFilter: 'blur(10px)',
+            boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+            border: '1px solid rgba(255, 255, 255, 0.3)',
+            position: 'fixed', 
+            bottom: 0, 
+            width: '100%' 
+          }}
+        >
+          <Link href="https://github.com/aaespino238/Hackathon-Week5" target="_blank" rel="noopener noreferrer">
+            <IconButton aria-label="GitHub">
+              <GitHubIcon fontSize="large" sx={{ color: 'black' }} />
+            </IconButton>
+          </Link>
+        </Box>
+      )}
     </div>
   );
 }
