@@ -36,7 +36,6 @@ export default function Home() {
         angle: Math.PI / 3,
         timeCoef: 0.1
       };
-      
 
       let renderer, scene, camera;
       let width, height;
@@ -321,38 +320,53 @@ export default function Home() {
         }}
       >
         {!videoFile && (
-          <Typography variant="h4" component="h1" gutterBottom>
-            Jelly Video Upload and Preview
-          </Typography>
-        )}
-
-        <Box sx={{ width: '100%', maxWidth: 800, marginBottom: videoFile ? "20px" : 0 }}>
-          <Button
-            variant="contained"
-            component="label"
-            sx={{ textTransform: 'none' }}  // Keeps the text case as is
+          <Card 
+            sx={{ 
+              width: '100%', 
+              maxWidth: 400, 
+              height: 300,  // Makes the card taller than it is wide
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: '16px', 
+              background: 'rgba(255, 255, 255, 0.5)',  // Slightly more opaque
+              backdropFilter: 'blur(10px)',
+              boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+              border: '1px solid rgba(255, 255, 255, 0.3)',
+              padding: '20px'
+            }}
           >
-            {videoFile ? "Change file" : "Upload file"}
-            <input
-              type="file"
-              accept="video/*"
-              onChange={handleVideoUpload}
-              hidden
-            />
-          </Button>
-        </Box>
+            <Typography variant="h4" component="h1" gutterBottom>
+              NabuNote
+            </Typography>
+            <Button
+              variant="contained"
+              component="label"
+              sx={{ textTransform: 'none', marginTop: '20px' }}  // Keeps the text case as is and adds margin
+            >
+              Upload file
+              <input
+                type="file"
+                accept="video/*"
+                onChange={handleVideoUpload}
+                hidden
+              />
+            </Button>
+          </Card>
+        )}
 
         {videoSrc && (
           <Card 
             sx={{ 
               width: '100%', 
-    maxWidth: 800, 
-    flexGrow: 1, 
-    borderRadius: '16px', 
-    background: 'rgba(255, 255, 255, 0.5)',  // Slightly more opaque
-    backdropFilter: 'blur(10px)',
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-    border: '1px solid rgba(255, 255, 255, 0.3)',
+              maxWidth: 800, 
+              flexGrow: 1, 
+              borderRadius: '16px', 
+              background: 'rgba(255, 255, 255, 0.5)',  // Slightly more opaque
+              backdropFilter: 'blur(10px)',
+              boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+              border: '1px solid rgba(255, 255, 255, 0.3)',
             }}
           >
             <CardMedia
@@ -362,9 +376,9 @@ export default function Home() {
               sx={{ height: 200, borderRadius: '16px 16px 0 0' }}  // Rounded top corners
               id="videoPreview"
             />
-            <CardContent sx={{ borderRadius: '0 0 16px 16px' }}>  // Rounded bottom corners
+            <CardContent sx={{ borderRadius: '0 0 16px 16px' }}>  
               <Typography variant="h6" component="div">
-                Uploaded Video
+                Preview Video
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 This is your uploaded video. You can play it back and review it.
