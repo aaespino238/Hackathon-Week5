@@ -242,11 +242,16 @@ export default function Home() {
         body: data
       })
 
-      const res = await response.json();
-      console.log(res)
+      const processedVideoBlob = await response.blob();
+      response.download
 
-      setVideoFile(file);
-      const videoURL = URL.createObjectURL(file);
+      const processedVideoFile = new File([processedVideoBlob], 'processedVideo.mp4', {
+        type: 'video/mp4',
+        lastModified: new Date().getTime()
+      })
+
+      setVideoFile(processedVideoFile);
+      const videoURL = URL.createObjectURL(processedVideoFile);
       setVideoSrc(videoURL);
 
       // Placeholder: This will later be replaced with an actual API call to transcribe video
