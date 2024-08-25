@@ -5,3 +5,12 @@
   padding: 0;
   margin: 0;
 }
+/* app/globals.css */
+@font-face {
+  font-family: 'SaltwaterType';
+  src: url('/fonts/SaltwatertypeitalicpersonalI-mLegG.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
