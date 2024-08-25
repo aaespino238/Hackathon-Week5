@@ -1,0 +1,284 @@
+{"emojis": [
+    {
+      "id": "emoji_001",
+      "emoji": "😀",
+      "name": "grinning face",
+      "description": "A yellow face with simple, open eyes and a broad, open smile, showing upper teeth and tongue on some platforms.",
+      "category": "smileys_and_emotion",
+      "tags": ["smile", "happy", "joy", "grin"]
+    },
+    {
+      "id": "emoji_002",
+      "emoji": "🎉",
+      "name": "party popper",
+      "description": "A party popper, as would be used at a celebration. Depicted as a gold cone shooting out colorful confetti and streamers.",
+      "category": "activities",
+      "tags": ["celebration", "party", "festive", "confetti"]
+    },
+    {
+      "id": "emoji_003",
+      "emoji": "🌈",
+      "name": "rainbow",
+      "description": "A rainbow, as seen after rain. Depicted as an arch of multicolored stripes, generally showing six colors: red, orange, yellow, green, blue, and purple.",
+      "category": "travel_and_places",
+      "tags": ["weather", "nature", "colors", "pride"]
+    },
+    {
+      "id": "emoji_004",
+      "emoji": "🍕",
+      "name": "pizza",
+      "description": "A slice of pepperoni pizza, with a red and yellow triangular slice with a browned crust.",
+      "category": "food_and_drink",
+      "tags": ["food", "italian", "cheese", "fast food"]
+    },
+    {
+      "id": "emoji_005",
+      "emoji": "🐶",
+      "name": "dog face",
+      "description": "A friendly, cartoon-styled face of a dog, looking straight ahead. Generally depicted as the face of a dog breed with floppy ears, such as a Golden Retriever or Beagle.",
+      "category": "animals_and_nature",
+      "tags": ["pet", "animal", "cute", "loyal"]
+    },
+    {
+      "id": "emoji_006",
+      "emoji": "🚀",
+      "name": "rocket",
+      "description": "A rocket being launched into space. Generally depicted as a white or silver rocket ship with fins and fire shooting from its base.",
+      "category": "travel_and_places",
+      "tags": ["space", "launch", "startup", "fast"]
+    },
+    {
+      "id": "emoji_007",
+      "emoji": "❤️",
+      "name": "red heart",
+      "description": "A classic red love heart emoji, used for expressions of love and romance.",
+      "category": "smileys_and_emotion",
+      "tags": ["love", "affection", "like", "valentines"]
+    },
+    {
+      "id": "emoji_008",
+      "emoji": "🌟",
+      "name": "glowing star",
+      "description": "A yellow or gold star with five points, surrounded by smaller sparkles or rays to give a glowing effect.",
+      "category": "travel_and_places",
+      "tags": ["star", "sparkle", "shiny", "award"]
+    },
+    {
+      "id": "emoji_009",
+      "emoji": "🎸",
+      "name": "guitar",
+      "description": "An acoustic or electric guitar. Depicted as a red or brown guitar in a right-handed orientation.",
+      "category": "objects",
+      "tags": ["music", "instrument", "rock", "acoustic"]
+    },
+    {
+      "id": "emoji_010",
+      "emoji": "🍔",
+      "name": "hamburger",
+      "description": "A hamburger, consisting of a meat patty on a bun, usually garnished with lettuce, tomato, and cheese.",
+      "category": "food_and_drink",
+      "tags": ["food", "fast food", "burger", "meal"]
+    },
+    {
+      "id": "emoji_011",
+      "emoji": "🌺",
+      "name": "hibiscus",
+      "description": "A pink or red hibiscus flower, often associated with tropical locations.",
+      "category": "animals_and_nature",
+      "tags": ["flower", "tropical", "hawaii", "beautiful"]
+    },
+    {
+      "id": "emoji_012",
+      "emoji": "🏆",
+      "name": "trophy",
+      "description": "A golden trophy with a stem and handles, awarded for an achievement in sports or other competitive areas.",
+      "category": "activities",
+      "tags": ["award", "prize", "achievement", "winner"]
+    },
+    {
+      "id": "emoji_013",
+      "emoji": "🌙",
+      "name": "crescent moon",
+      "description": "A crescent moon, as visible during its first or last quarter phase. Generally depicted in yellow or gold.",
+      "category": "travel_and_places",
+      "tags": ["night", "sleep", "dream", "sky"]
+    },
+    {
+      "id": "emoji_014",
+      "emoji": "📚",
+      "name": "books",
+      "description": "A stack of three colored, hardcover books.",
+      "category": "objects",
+      "tags": ["education", "reading", "library", "study"]
+    },
+    {
+      "id": "emoji_015",
+      "emoji": "🦋",
+      "name": "butterfly",
+      "description": "A butterfly, a beautiful winged insect. Generally depicted in blue and black, as a morpho butterfly or blue morpho.",
+      "category": "animals_and_nature",
+      "tags": ["insect", "beautiful", "nature", "transformation"]
+    },
+    {
+      "id": "emoji_016",
+      "emoji": "🎭",
+      "name": "performing arts",
+      "description": "Two masks, one showing a happy face and the other a sad face, as used in Greek and Roman theater to represent comedy and tragedy.",
+      "category": "activities",
+      "tags": ["theater", "drama", "acting", "arts"]
+    },
+    {
+      "id": "emoji_017",
+      "emoji": "🌊",
+      "name": "water wave",
+      "description": "A wave of water, as the sea or ocean. Depicted as a blue wave with white sea foam cresting over to the right.",
+      "category": "travel_and_places",
+      "tags": ["ocean", "sea", "surf", "beach"]
+    },
+    {
+      "id": "emoji_018",
+      "emoji": "🍦",
+      "name": "soft ice cream",
+      "description": "A swirl of soft-serve ice cream in a wafer cone. Generally depicted as vanilla ice cream.",
+      "category": "food_and_drink",
+      "tags": ["dessert", "sweet", "summer", "treat"]
+    },
+    {
+      "id": "emoji_019",
+      "emoji": "🎈",
+      "name": "balloon",
+      "description": "A party balloon in red or another bright color.",
+      "category": "activities",
+      "tags": ["party", "celebration", "birthday", "float"]
+    },
+    {
+      "id": "emoji_020",
+      "emoji": "🐘",
+      "name": "elephant",
+      "description": "A gray elephant, shown in full profile facing left with large ears and a long trunk.",
+      "category": "animals_and_nature",
+      "tags": ["animal", "large", "trunk", "safari"]
+    },
+    {
+      "id": "emoji_021",
+      "emoji": "⚡",
+      "name": "high voltage",
+      "description": "A jagged yellow lightning bolt or high voltage sign.",
+      "category": "travel_and_places",
+      "tags": ["electricity", "power", "energy", "fast"]
+    },
+    {
+      "id": "emoji_022",
+      "emoji": "🍎",
+      "name": "red apple",
+      "description": "A classic red apple, as pictured on a teacher's desk or in a fruit bowl.",
+      "category": "food_and_drink",
+      "tags": ["fruit", "healthy", "teacher", "fall"]
+    },
+    {
+      "id": "emoji_023",
+      "emoji": "🏄‍♂️",
+      "name": "person surfing",
+      "description": "A person riding a surfboard on a wave. Typically shown wearing swim trunks.",
+      "category": "people_and_body",
+      "tags": ["surf", "ocean", "beach", "sport"]
+    },
+    {
+      "id": "emoji_024",
+      "emoji": "🌵",
+      "name": "cactus",
+      "description": "A cactus, a spiny plant that grows in very dry regions. Depicted as a saguaro cactus with two side arms.",
+      "category": "animals_and_nature",
+      "tags": ["desert", "dry", "plant", "southwest"]
+    },
+    {
+      "id": "emoji_025",
+      "emoji": "🎨",
+      "name": "artist palette",
+      "description": "A palette used by an artist when painting, as to mix different colors. Generally depicted as a wooden palette with a hole for the thumb and paint colors around the edge.",
+      "category": "activities",
+      "tags": ["art", "painting", "creativity", "design"]
+    }
+,
+    {
+      "id": "emoji_026",
+      "emoji": "👍",
+      "name": "thumbs up",
+      "description": "A thumbs-up gesture indicating approval, agreement, or encouragement.",
+      "category": "people_and_body",
+      "tags": ["approve", "like", "agree", "good"]
+    },
+    {
+      "id": "emoji_027",
+      "emoji": "😂",
+      "name": "face with tears of joy",
+      "description": "A yellow face with a big grin, uplifted eyebrows, and smiling eyes, each shedding a tear from laughing so hard.",
+      "category": "smileys_and_emotion",
+      "tags": ["laugh", "hilarious", "joy", "lol"]
+    },
+    {
+      "id": "emoji_028",
+      "emoji": "😍",
+      "name": "smiling face with heart-eyes",
+      "description": "A yellow face with an open smile, sometimes showing teeth, and red, cartoon-styled hearts for eyes.",
+      "category": "smileys_and_emotion",
+      "tags": ["love", "adore", "crush", "infatuation"]
+    },
+    {
+      "id": "emoji_029",
+      "emoji": "🤔",
+      "name": "thinking face",
+      "description": "A yellow face with furrowed eyebrows looking upwards with thumb and index finger resting on its chin.",
+      "category": "smileys_and_emotion",
+      "tags": ["think", "consider", "contemplate", "hmm"]
+    },
+    {
+      "id": "emoji_030",
+      "emoji": "😮",
+      "name": "face with open mouth",
+      "description": "A yellow face with raised eyebrows and an open mouth, as if gasping in shock or surprise.",
+      "category": "smileys_and_emotion",
+      "tags": ["surprise", "shock", "wow", "astonished"]
+    },
+    {
+      "id": "emoji_031",
+      "emoji": "👏",
+      "name": "clapping hands",
+      "description": "Two hands clapping, as in applause or approval.",
+      "category": "people_and_body",
+      "tags": ["applause", "praise", "congratulations", "bravo"]
+    },
+    {
+      "id": "emoji_032",
+      "emoji": "😢",
+      "name": "crying face",
+      "description": "A yellow face with raised eyebrows and a slight frown, shedding a single, blue tear from one eye.",
+      "category": "smileys_and_emotion",
+      "tags": ["sad", "tear", "upset", "unhappy"]
+    },
+    {
+      "id": "emoji_033",
+      "emoji": "🙄",
+      "name": "face with rolling eyes",
+      "description": "A yellow face with slightly raised eyebrows, looking upwards and rolling its eyes.",
+      "category": "smileys_and_emotion",
+      "tags": ["sarcasm", "exasperation", "annoyance", "whatever"]
+    },
+    {
+      "id": "emoji_034",
+      "emoji": "😎",
+      "name": "smiling face with sunglasses",
+      "description": "A yellow face with a broad, closed smile wearing black sunglasses, as if a pair of classic Wayfarers.",
+      "category": "smileys_and_emotion",
+      "tags": ["cool", "confident", "awesome", "chill"]
+    },
+    {
+      "id": "emoji_035",
+      "emoji": "🤯",
+      "name": "exploding head",
+      "description": "A yellow face with an open mouth, the top of its head exploding in the shape of a brain-like mushroom cloud.",
+      "category": "smileys_and_emotion",
+      "tags": ["mind blown", "shocked", "amazed", "overwhelmed"]
+    }
+  ]
+}
