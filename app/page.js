@@ -231,9 +231,21 @@ export default function Home() {
     App();
   }, []);
 
-  const handleVideoUpload = (event) => {
+  const handleVideoUpload = async (event) => {
+    var data = new FormData()
     const file = event.target.files[0];
+
     if (file) {
+      data.append('videoFile', file)
+
+      const response = await fetch('http://127.0.0.1:5000/api/processVideo', {
+        method: 'POST',
+        body: data
+      })
+
+      const res = await response.json();
+      console.log(res)
+
       setVideoFile(file);
       const videoURL = URL.createObjectURL(file);
       setVideoSrc(videoURL);
